@@ -29,7 +29,7 @@ Follow the steps below to deploy the Marketplace smart contract on a local Ether
 2. Navigate to the project directory: `cd Mod2Eth-Avax/MarketPlace-Frontend`
 3. Install project dependencies by running: `npm install`
 4. Start the local Ethereum network (Hardhat's built-in node) by running: `npx hardhat node`
-5. In a new terminal, deploy the contract to the local network by running: `npx hardhat run scripts/deploy.js --network localhost`
+5. In a new terminal, deploy the contract to the local network by running: `npx hardhat run deploy.js --network localhost`
 6. Note down the deployed contract address as it will be required in the frontend.
 
 ### Frontend Setup and Running
